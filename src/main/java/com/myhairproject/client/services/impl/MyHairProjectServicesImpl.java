@@ -1,5 +1,11 @@
 package com.myhairproject.client.services.impl;
 
-public class MyHairProjectServicesImpl {
+import org.springframework.stereotype.Service;
 
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class MyHairProjectServicesImpl {
+	
 }
