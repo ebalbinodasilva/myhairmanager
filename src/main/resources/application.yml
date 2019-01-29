@@ -1,0 +1,23 @@
+accessTokenUri: https://graph.facebook.com/oauth/access_token
+authenticationScheme: query
+client: ''
+clientAuthenticationScheme: form
+clientId: 233668646673605
+clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d
+oauth2: ''
+resource: ''
+security: ''
+spring:
+  datasource:
+    password: ae621ae7e5d70aef02f89c8a3d14ee1d04ac21c2135a5ca8de5505b0d2879697
+    url: jdbc:postgresql://ec2-54-235-67-106.compute-1.amazonaws.com:5432/d22m18mftovffo
+    username: jiwkamhvrcxqyg
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+tokenName: oauth_token
+userAuthorizationUri: https://www.facebook.com/dialog/oauth
+userInfoUri: https://graph.facebook.com/me
